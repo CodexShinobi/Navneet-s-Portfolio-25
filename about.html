@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Navneet Prakash</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Navneet<span class="dot">.</span></a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="controls">
+        <div class="socials">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.447 20.452H16.893V14.87c0-1.333-.027-3.054-1.861-3.054-1.861 0-2.145 1.454-2.145 2.956v5.68H9.335V9h3.41v1.561h.049c.476-.9 1.637-1.849 3.37-1.849 3.604 0 4.271 2.372 4.271 5.455v6.285zM5.337 7.433a1.988 1.988 0 1 1 0-3.975 1.988 1.988 0 0 1 0 3.975zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .77 0 1.723v20.555C0 23.23.792 24 1.771 24h20.451C23.2 24 24 23.23 24 22.278V1.723C24 .77 23.2 0 22.222 0z"/></svg>
+          </a>
+          <a href="https://github.com/CodexShinobi" target="_blank" aria-label="GitHub" class="icon" style="margin-left:8px;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605-2.665-.305-5.467-1.334-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.135-.304-.54-1.527.105-3.176 0 0 1.005-.322 3.3 1.23a11.5 11.5 0 0 1 3.003-.404c1.02.005 2.045.138 3.003.404 2.28-1.552 3.285-1.23 3.285-1.23.645 1.649.24 2.872.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.43.37.81 1.096.81 2.21 0 1.595-.015 2.88-.015 3.27 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+        </div>
+
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        <button id="hamburger" class="hamburger">≡</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container about-page">
+    <section class="about-intro" data-animate>
+      <img src="assets/navneet-profile.jpg" alt="Navneet" class="about-photo">
+      <h2>About Me</h2>
+      <p class="lead muted">
+        A highly organized, creative, and goal-driven learner with exceptional leadership skills.
+        Passionate about delivering high-quality, efficient and innovative projects.
+      </p>
+    </section>
+
+    <section class="resume-section" data-animate>
+      <div class="two-col">
+        <div>
+          <h3>Professional Projects</h3>
+          <ul class="timeline">
+            <li><h4>The Ministry of Nails</h4><p>Creative beauty e-commerce platform.</p></li>
+            <li><h4>BDM Enterprises</h4><p>Full e-commerce with payment integration.</p></li>
+            <li><h4>Haslefree</h4><p>Ride-hailing app with routing and payments.</p></li>
+          </ul>
+        </div>
+
+        <aside>
+          <h3>Education</h3>
+          <p>Bachelor in Computer Science & Engineering — Chandigarh University, Gharuan</p>
+          <h3>Skills</h3>
+          <div class="skill-list">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Node.js</span><span>MongoDB</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Navneet Prakash</div>
+      <div class="social-inline">
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="icon"><svg ...></svg></a>
+        <a href="https://github.com/CodexShinobi" target="_blank" aria-label="GitHub" class="icon" style="margin-left:8px;"><svg ...></svg></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

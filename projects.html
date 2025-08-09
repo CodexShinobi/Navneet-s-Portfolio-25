@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Navneet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Navneet<span class="dot">.</span></a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="controls">
+        <div class="socials">
+          <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="icon"><svg ...></svg></a>
+          <a href="https://github.com/CodexShinobi" target="_blank" aria-label="GitHub" class="icon" style="margin-left:8px;"><svg ...></svg></a>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">☀️</button>
+        <button id="hamburger" class="hamburger">≡</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container section-padding">
+    <h2 class="section-title">Selected Projects</h2>
+    <p class="lead muted">Major projects, short descriptions and tech tags.</p>
+
+    <section class="projects-grid" id="projectsGrid">
+      <article class="project-card" data-tilt>
+        <h3>The Ministry of Nails</h3>
+        <p>Creative e-commerce & CMS for beauty content.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>Node.js</span></div>
+      </article>
+
+      <article class="project-card" data-tilt>
+        <h3>BDM Enterprises</h3>
+        <p>Full-stack e-commerce with payment gateway integrations.</p>
+        <div class="tags"><span>React</span><span>Node</span><span>MongoDB</span></div>
+      </article>
+
+      <article class="project-card" data-tilt>
+        <h3>Haslefree</h3>
+        <p>Ride-hailing app: driver/passenger flows, routing logic.</p>
+        <div class="tags"><span>React Native</span><span>Maps</span></div>
+      </article>
+    </section>
+
+    <section class="carousel-wrap">
+      <h3>Deep Dives</h3>
+      <div class="carousel" id="carousel">
+        <div id="carouselTrack" class="carousel-track">
+          <div class="carousel-item">Ministry of Nails — Deep dive</div>
+          <div class="carousel-item">BDM Enterprises — Deep dive</div>
+          <div class="carousel-item">Haslefree — Deep dive</div>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button id="prevBtn" class="slide-btn">Prev</button>
+        <button id="nextBtn" class="slide-btn">Next</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 Navneet</div>
+      <div class="social-inline">
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="icon"><svg ...></svg></a>
+        <a href="https://github.com/CodexShinobi" target="_blank" aria-label="GitHub" class="icon" style="margin-left:8px;"><svg ...></svg></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
